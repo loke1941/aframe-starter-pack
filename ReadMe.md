@@ -3,7 +3,8 @@
 Below you’ll find instructions to copy (fork) this repository and set it up for your own experiments.
 
 * **STEP 01 - Setup your code and Live Site** (with GitHub)
-* **STEP 02 - Edit Your Code locally** (with GitHub Desktop, VS Code and Local Preview plugin)
+* **STEP 02 - Setup Your Code locally** (with GitHub Desktop, VS Code and Local Preview plugin)
+* **STEP 03 - Make it Your Own!** (Start editing locally and syncing to Github)
 
 ##
 
@@ -62,7 +63,7 @@ Setup Your Code and Live Site (GitHub and GitHub Pages)
 4. Right-click `index.html` and choose **Show Preview**.
 5. Your page should open in a new window in VS Code so you can preview it while you work.
 
-## Now make it your own!
+## STEP 03 - Now make it your own!
 
 > Congratulations! You've set up everything to get going with your own experiments with this Starter Pack! Now, repeat this following steps (Edit Your Code Locally -> Save, Commit and Push) as you continue editing your code. This way your work isn't just saved to your computer but is synced to your Github account (and automatically updates your Github Pages live site).
 
