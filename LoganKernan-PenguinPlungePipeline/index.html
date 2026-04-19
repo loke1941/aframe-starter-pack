@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.7.1/aframe.min.js"> </script>
+    <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+    <script src="https://unpkg.com/@c-frame/aframe-particle-system-component@1.2.x/dist/aframe-particle-system-component.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      
+      <a-assets>
+        <a-asset-item id="divingBoard" src="./assets/models/divingBoard/diving_board.gltf"></a-asset-item>
+        <a-asset-item id="penguin" src="./assets/models/penguin/penguin.gltf"></a-asset-item>
+      </a-assets>
+      <a-entity gltf-model="#divingBoard" position="1.25 .5 -4" rotation="0 20 0" scale=".75 .75 .75"></a-entity>
+      <a-entity gltf-model="#penguin" position="-1 2 -4" rotation="180 185 0" scale=".4 .4 .4"></a-entity>
+      <a-sky src="./assets/crackedbando9.png"></a-sky>
+      <a-entity particle-system="preset: dust; color: #31cc98; size:2.5" position="-1 2 -4" ></a-entity>
+      <a-entity particle-system="preset: dust; color:  #f20505; size:2.5" position="3 2 -2" ></a-entity>
+      
+        <a-light type="point" intensity="25"color="#31cc98" position="-2 10 -3"></a-light>
+        <a-light type="point" intensity="10" color="red" position="3 2 0"></a-light>
+        <a-light type="ambient" color="#222"></a-light>
+
+    </a-scene>
+  </body>
+</html>
